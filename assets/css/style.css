@@ -98,7 +98,7 @@ header {
 .product-description {
     margin-right: 105px;
     color: white;
-    width: 300px;
+    width: 350px;
 }
 
 .product-description button{
@@ -123,6 +123,7 @@ header {
 .product-img img {
     width: 300px;
     margin-left: 150px;
+    cursor: pointer;
 }
 
 .products {
@@ -142,17 +143,18 @@ header {
 
 .lines {
     display: flex;
-    overflow: scroll;
+    flex-wrap: wrap;
 }
 
 .products-presentation {
     width: 170px;
-    height: 200px;
+    height: 210px;
     margin: 10px;
     background-color: #ac85d8;
     display: flex;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .products-presentation h5 {
